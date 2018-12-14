@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:textSize="20sp"
+    android:background="@drawable/back"
+    tools:context="com.example.rajiev.case1.Home">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#472210"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <Spinner
+                    android:layout_weight="1"
+                    android:id="@+id/spinner1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#ffff"
+                    android:padding="5dp"/>
+
+                <Spinner
+                    android:layout_weight="1"
+                    android:id="@+id/spinner2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#ffff"
+                    android:padding="5dp"/>
+
+                <Spinner
+                    android:layout_weight="1"
+                    android:id="@+id/spinner3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#ffff"
+                    android:padding="5dp"/>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/awalan"
+                android:textAlignment="center"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:adjustViewBounds="true"
+                    android:id="@+id/aji"
+                    android:layout_width="0dp"
+                    android:layout_height="160dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/anomalus81"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    >
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/aji1"
+                    android:layout_width="0dp"
+                    android:layout_height="160dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+
+                    android:background="@drawable/anomalus82"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    >
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Second Row-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+                <LinearLayout
+                    android:id="@+id/aji2"
+                    android:layout_width="0dp"
+                    android:layout_height="160dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/anubarak"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    >
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/aji3"
+                    android:layout_width="0dp"
+                    android:layout_height="160dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/archmage"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    >
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <!-- End Second Row-->
+            <!-- Third Row-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+                <LinearLayout
+                    android:id="@+id/aji4"
+                    android:layout_width="0dp"
+                    android:layout_height="160dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/dragonpotion"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    >
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/aji5"
+                    android:layout_width="0dp"
+                    android:layout_height="160dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/awaken"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true">
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+            <!-- End Third Row-->
+            <!-- Third Row-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+                <LinearLayout
+                    android:id="@+id/aji6"
+                    android:layout_width="0dp"
+                    android:layout_height="160dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/holy"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    >
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/aji7"
+                    android:layout_width="0dp"
+                    android:layout_height="160dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/hallazel"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    >
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+            <!-- End Third Row-->
+            <!-- Third Row-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1"
+                >
+                <LinearLayout
+
+                    android:layout_width="0dp"
+                    android:layout_height="450dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/ending"
+
+                    >
+
+                    <Button
+                        android:id="@+id/tombol1"
+                        android:layout_width="140dp"
+                        android:layout_height="40dp"
+                        android:text="More Card"
+                        android:background="@drawable/button"
+                        android:layout_margin="140dp"
+                        android:layout_gravity="center"
+                        />
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

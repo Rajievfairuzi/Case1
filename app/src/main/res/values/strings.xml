@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Case 1 rajief</string>
+    <string name="permission_dialog">Accessing Location Permissions required</string>
+    <string name="search">Search</string>
+    <string name="type_name">Type Name</string>
+    <string name="go_to_permissions_settings">Go to App settings and enable permissions</string>
+    <string name="a">Type : Minion</string>
+    <string name="b">Class : Mage</string>
+    <string name="c">Rarity : Legendary</string>
+    <string name="d">Set : Whispers of the Old Gods</string>
+    <string name="e">Race :  Elemental</string>
+    <string name="f">Crafting Coast : 1600 / 3200 (Golden)</string>
+    <string name="g">Arcane Dust Gained : 400 / 1600 (Golden)</string>
+    <string-array
+
+        name="android_dropdown_arrays">
+        <item>category </item>
+        <item>card sets </item>
+        <item>guide </item>
+        <item>adventures </item>
+        <item>forum </item>
+        <item>news </item>
+        <item>heroes </item>
+
+
+    </string-array>
+</resources>

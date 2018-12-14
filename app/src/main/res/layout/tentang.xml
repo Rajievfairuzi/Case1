@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:textSize="20sp"
+    android:background="@drawable/back"
+    tools:context="com.example.rajiev.case1.Home">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#472210"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <Spinner
+                    android:layout_weight="1"
+                    android:id="@+id/spinner1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#ffff"
+                    android:padding="5dp"/>
+
+                <Spinner
+                    android:layout_weight="1"
+                    android:id="@+id/spinner2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#ffff"
+                    android:padding="5dp"/>
+
+                <Spinner
+                    android:layout_weight="1"
+                    android:id="@+id/spinner3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#ffff"
+                    android:padding="5dp"/>
+            </LinearLayout>
+            <ImageView
+                android:layout_margin="20dp"
+                android:layout_width="250dp"
+                android:layout_height="300dp"
+                android:background="@drawable/ccc"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:paddingLeft="40dp"
+                android:id="@+id/matul"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/a"
+                android:textColor="#32170B"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:paddingLeft="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/b"
+                android:textColor="#32170B"
+
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:paddingLeft="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/c"
+                android:textColor="#32170B"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:paddingLeft="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/d"
+                android:textColor="#32170B"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:paddingLeft="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/e"
+                android:textColor="#32170B"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:paddingLeft="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/f"
+                android:textColor="#32170B"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:paddingLeft="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/g"
+                android:textColor="#32170B"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>
